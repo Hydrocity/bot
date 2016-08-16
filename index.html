@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Bot Commands : This project page gives a description of the current command list of Bellematon.">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Bot Commands</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/hydrocityps/bot">View on GitHub</a>
+
+          <h1 id="project_title">Bot Commands</h1>
+          <h2 id="project_tagline">This project page gives a description of the current command list of Bellematon.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/hydrocityps/bot/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/hydrocityps/bot/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h2>
+<a id="basic-commands" class="anchor" href="#basic-commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Basic commands</h2>
+
+<ul>
+<li>
+<code>about</code> - Basic bot info</li>
+<li>
+<code>guide</code> - Get a link to this guide</li>
+<li>
+<code>say [text]</code> - Force to say something</li>
+<li>
+<code>set [command], rank</code> - Sets a command to cetain rank.</li>
+<li>
+<code>set mod, [stretching|flooding|caps], [on|off]</code> - Sets moderation level when bot is mod</li>
+<li>
+<code>addcom [command],[rank],[output]</code> - Add a custom room only command.</li>
+<li>
+<code>delcom [command]</code> - Delete a custom command.</li>
+<li>
+<code>comlist</code> - Lists the command list.</li>
+<li>
+<code>autores [add|del|list]</code> - Automated response for certain text patterns. </li>
+<li>
+<code>addjoinphrase [user], message</code> - Sets a join phrase.</li>
+<li>
+<code>deljoinphrase [user]</code> - Deletes a join phrase for the user.</li>
+<li>
+<code>editjoinphrase [user], message</code> - Edits the set joinphrase.</li>
+<li>
+<code>viewjoinphrases</code> - Views all the joinphrases for the given room.</li>
+<li>
+<code>addquote</code> - Adds a quote in the room quotelist.</li>
+<li>
+<code>delquote</code> - Deletes the given quote from the room quotelist.</li>
+<li>
+<code>quotelist</code> - Shows the quotelist for the given room.</li>
+<li>
+<code>quote</code> - Shows a random quote or based on the given argument.</li>
+</ul>
+
+<h2>
+<a id="custom-commands-help" class="anchor" href="#custom-commands-help" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Custom commands help</h2>
+
+<ul>
+<li>
+<code>{arg}</code> - Takes input from the custom command when added to the output.</li>
+<li>
+<code>{by}</code> - Adds the user's username to the command output when used in output.</li>
+<li>
+<code>{pick}</code> - picks one of the args.</li>
+<li>
+<code>{rand[number]}</code> - throws a random number from 1 to the number.</li>
+<li>
+<code>{choose[choice1, choice2, choice3, etc]}</code>- chooses between choices.</li>
+</ul>
+
+<h2>
+<a id="miscellaneous-commands" class="anchor" href="#miscellaneous-commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Miscellaneous commands</h2>
+
+<ul>
+<li>
+<code>meme</code> - Random Lenny</li>
+<li>
+<code>joke</code> - Random Chuck Norris joke</li>
+<li>
+<code>rk</code> - Kicks the given user from the room, requires bot to be mod.</li>
+<li>
+<code>pair</code> - Pairs the user with the argument</li>
+<li>
+<code>ship</code> - Pairs the two arguments.</li>
+<li>
+<code>rank</code> - Shows the rank of the user or the argument, won't work if the ladder rating is too long to be displayed.</li>
+<li>
+<code>age</code> - Shows the age of the user or the argument based on registration.</li>
+<li>
+<code>regdate</code> - Shows the registration date for the user or the argument.</li>
+<li>
+<code>8ball</code> - Random response over a question</li>
+<li>
+<code>usage</code> - Usagestat command.</li>
+</ul>
+
+<h2>
+<a id="games" class="anchor" href="#games" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Games</h2>
+
+<ul>
+<li>
+<code>signups</code> - Starts the game in the argument [trivia/hangman/anagrams/blackjack/statspread/kunc/passthebomb/ambush/crazyeights]</li>
+<li>
+<code>g</code> - used for guessing</li>
+<li>
+<code>atm</code> - lists your points on the leaderboard.</li>
+<li>
+<code>autostart</code> - sets the autostart timer on a given game in seconds.</li>
+<li>
+<code>start</code> - Starts the given game.</li>
+<li>
+<code>end</code> - Ends the game prematurely.</li>
+<li>
+<code>join</code> - Registers you for an ongoing game.</li>
+<li>
+<code>leave</code> - Deregisters you from the players.</li>
+<li>
+<code>pass</code> - Passes the bomb in pass the bomb.</li>
+<li>
+<code>hit/stay</code> - Hit or stay in Blackjack.</li>
+<li>
+<code>play</code> - Plays a card in crazyeights.</li>
+<li>
+<code>fire</code> - Snipes the argument in Ambush.</li>
+<li>
+<code>randgame</code> - Plays a random game.</li>
+</ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Bot Commands maintained by <a href="https://github.com/hydrocityps">hydrocityps</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
